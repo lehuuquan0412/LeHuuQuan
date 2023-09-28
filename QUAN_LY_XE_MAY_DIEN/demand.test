@@ -1,0 +1,30 @@
+display:
+nếu xe bật:                         nếu xe tắt:
+xi nhan: trái/phải.                 xi nhan: -------
+quạt: bật/tắt.                      quạt:-----------
+vận tốc: 50km/h.                    vận tốc:--------
+_________________
+Khởi động xe: tắt/bật.
+
+class dung luong pin:
+{
+    dung lượng hiện tại;
+    dung lượng max;
+    dung lượng min;
+    nhiệt độ pin;
+    quạt làm mát;
+}
+
+
+
+nhấn lên: tăng v;
+nhấn xuống: giảm v;
+nhấn trái/ phải: xi nhan;
+
+dung lượng pin: random;
+
+nhiệt độ pin: 20-80 độ; random;
+quạt làm mát: dựa vào nhiệt độ pin. nếu nhiệt độ lớn hơn 50 thì bật.
+
+mỗi chức năng làm đa luồng.
+
